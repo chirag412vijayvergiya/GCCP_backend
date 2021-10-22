@@ -1,1 +1,0 @@
-# GDSC-MPSTME-Leaderboard-API
