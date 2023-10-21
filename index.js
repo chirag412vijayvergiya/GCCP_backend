@@ -42,7 +42,7 @@ app.get("/", (req, res) => {
         } else if (
           (numTrack1Badges > 0 &&
           numTrack1Badges < 4) ||
-          numTrack2Badges == 1
+          numTrack2Badges === 1
         ) {
           ranks.bronze.push(person);
         } else {
