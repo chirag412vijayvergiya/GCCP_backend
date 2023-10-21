@@ -134,10 +134,10 @@ const categorizeAndSortData = (data) => {
     ) {
       ranks.silver.push(person);
     } else if (
-      numTrack1Badges > 0 &&
-      numTrack1Badges < 4 &&
-      numTrack2Badges !== 1
-    ) {
+          (numTrack1Badges > 0 &&
+          numTrack1Badges < 4) ||
+          numTrack2Badges === 1
+        ) {
       ranks.bronze.push(person);
     } else {
       ranks.unranked.push(person);
