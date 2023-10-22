@@ -130,7 +130,7 @@ const categorizeAndSortData = (data) => {
       ranks.gold.push(person);
     } else if (
       (numTrack1Badges === 4 && numTrack2Badges !== 1) ||
-      (numTrack1Badges > 2 && numTrack1Badges !== 1 && numTrack2Badges === 1)
+      (numTrack1Badges > 2  && numTrack2Badges === 1)
     ) {
       ranks.silver.push(person);
     } else if (
