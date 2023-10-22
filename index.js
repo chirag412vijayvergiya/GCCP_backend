@@ -122,9 +122,9 @@ const categorizeAndSortData = (data) => {
 
   data.forEach((person) => {
     // Assuming property names are consistent with your CSV
-    const numTrack1Badges = parseInt(person["# of Skill Badges Completed"]);
+    const numTrack3Badges = parseInt(person["# of Skill Badges Completed"]);
     const numTrack2Badges = parseInt(person["# of GenAI Game Completed"]);
-    const numTrack3Badges = parseInt(person["# of Courses Completed"]);
+    const numTrack1Badges = parseInt(person["# of Courses Completed"]);
 
     if (numTrack1Badges === 4 && numTrack2Badges === 1) {
       ranks.gold.push(person);
